@@ -18381,6 +18381,20 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		evoLevel: 38,
 		eggGroups: ["Fairy"],
 	},
+	tinkatonmega: {
+		num: 959
+		name: "Tinkaton-Mega",
+		baseSpecies: "Tinkaton",
+		forme: "Mega",
+		types: ["Fairy", "Steel"],
+		genderRatio: { M: 0.875, F: 0.125 },
+		baseStats: { hp: 85, atk: 115, def: 147, spa: 70, spd: 140, spe: 49 },
+		abilities: { 0: "Mirror Armor" },
+		heightm: 0.7,
+		weightkg: 167.6,
+		color: "Purple",
+		eggGroups: ["Fairy"],
+	},
 	wiglett: {
 		num: 960,
 		name: "Wiglett",
