@@ -18382,7 +18382,7 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		eggGroups: ["Fairy"],
 	},
 	tinkatonmega: {
-		num: 959
+		num: 959,
 		name: "Tinkaton-Mega",
 		baseSpecies: "Tinkaton",
 		forme: "Mega",
@@ -18394,12 +18394,13 @@ export const Pokedex: import('../sim/dex-species').SpeciesDataTable = {
 		weightkg: 167.6,
 		color: "Purple",
 		eggGroups: ["Fairy"],
+		requiredItem: "Tinkatonite",
 	},
 	wiglett: {
 		num: 960,
 		name: "Wiglett",
 		types: ["Water"],
-		baseStats: { hp: 10, atk: 55, def: 25, spa: 35, spd: 25, spe: 95 },
+		baseStats: { hp: 10, atk: 55, def: 25, spa: 35, spd: 25, spe: 255 },
 		abilities: { 0: "Gooey", 1: "Rattled", H: "Sand Veil" },
 		heightm: 1.2,
 		weightkg: 1.8,

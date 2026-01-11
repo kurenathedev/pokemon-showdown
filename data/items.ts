@@ -6334,6 +6334,17 @@ export const Items: import('../sim/dex-items').ItemDataTable = {
 		gen: 3,
 		isPokeball: true,
 	},
+	tinkatonite: {
+		Name: "Tinkatonite",
+		spritenum: 575,
+		megaStone: { "Tinkaton": "Tinkaton-Mega" },
+		itemUser: ["Tinkaton"],
+		onTakeItem(item, source) {
+			return !item.megaStone?.[source.baseSpecies.baseSpecies];
+		},
+		num: 3500,
+		gen: 20,
+	},
 	toxicorb: {
 		name: "Toxic Orb",
 		spritenum: 515,
