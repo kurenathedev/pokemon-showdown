@@ -5716,6 +5716,10 @@ export const FormatsData: import('../sim/dex-species').SpeciesFormatsDataTable =
 		doublesTier: "(DUU)",
 		natDexTier: "RU",
 	},
+	tinkatonmega: {
+		isNonstandard: "Past",
+		tier: "Illegal",
+	},
 	charcadet: {
 		tier: "LC",
 	},

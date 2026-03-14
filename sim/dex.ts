@@ -549,6 +549,7 @@ export class ModdedDex {
 			const data = this.data[table];
 			for (const [id, entry] of Object.entries(data) as [ID, DexTableData[typeof table][string]][]) {
 				let name = compoundNames.get(id) || entry.name;
+				if (!name) continue;
 				let forme = '' as ID;
 				let formeLetter = '' as ID;
 				if (name.includes('(')) {
